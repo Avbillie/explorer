@@ -1,4 +1,4 @@
-var googleAPI = "AIzaSyAZb9y6el4Q4v6BcVEwmUFHrwbi-aINpys";
+var googleAPI = "AIzaSyAZb9y6el4Q4v6BcVEwmUFHrwbi";
 
 var map;
 var service;
