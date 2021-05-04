@@ -1,4 +1,4 @@
-var googleAPI = "AIzaSyAM97bjZTktK2J_CFUnFfSZI1lEQKMtSHo";
+var googleAPI = "AIzaSyAZb9y6el4Q4v6BcVEwmUFHrwbi-aINpys";
 
 var map;
 var service;
@@ -201,7 +201,7 @@ $(document).ready(function () {
 
         function APIcalls() {
             weatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
-            APIkey = "&appid=ea42a1210d1c0c2d7b6990d0d1323fe7";
+            APIkey = "6246b2f332db9d80c4d1949f6c805feb";
             currentWeatherUrl = weatherUrl + city + APIkey;
             $("#cityName").text("Today's Weather in " + capitalize(city));
             $.ajax({
